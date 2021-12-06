@@ -3,3 +3,17 @@
 
 --Rodar container
 	docker run -p 9080:8080 rafaelroque/spring-boot-docker
+	
+  Repositório Docker:rafaelroque/rafael.viana
+
+--Taggear imagem
+	docker tag rafaelroque/spring-boot-docker:latest rafaelroque/rafael.viana:1.0
+
+--Push da imagem
+	docker push rafaelroque/rafael.viana:1.0  
+	
+--Pull
+	docker pull rafaelroque/rafael.viana:1.0
+
+--Rodar container
+	docker run -p 9080:8080 rafaelroque/rafael.viana:1.0
