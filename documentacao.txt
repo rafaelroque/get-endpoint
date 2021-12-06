@@ -1,0 +1,5 @@
+--Criar imagem
+	docker build -t rafaelroque/spring-boot-docker
+
+--Rodar container
+	docker run -p 9080:8080 rafaelroque/spring-boot-docker
